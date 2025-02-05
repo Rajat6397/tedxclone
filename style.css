@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width:100%;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 50px 90px;
+    
+}
+.navbar1{
+    width:100%;
+    background-color: #D3D3D3;
+    padding:13px;
+    display:flex;
+    
+}
+.navbar2{
+    width:100%;
+    background-color: #fff;
+    display:flex;
+    justify-content: space-between;
+    /* border-bottom: red; */
+}
+.ideaquote{
+    color:#757575;
+}
+.firstpic{
+    display:flex;
+    align-items:center;
+}
+.secondpic {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Space between items */
+}
+.secondpic ul {
+    display: flex;
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    gap: 15px; /* Space between list items */
+}
+
+.secondpic li a {
+    text-decoration: none;
+    color: black; /* Change as needed */
+}
+
+.secondpic button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.secondpic i {
+    font-size: 20px;
+    cursor: pointer;
+}
+.science{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 80px 50px; 
+    
+}
+.para1{
+    width:60%;
+    height:auto;
+}
+.women img{
+   width:50%;
+   height:90%;
+}
+.quote{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.quote img{
+    width:80%;
+}
+.navbar3{
+    width:100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding:10px 40px 10px 40px;
+}
+ .buttons{
+    display: flex;
+    width:60%; 
+    overflow-x:auto;
+    
+}
+.buttons button{
+    width:55%;
+    padding: 8px;
+    background-color: #FFFFFF4C;
+    color:#fff;
+    border-radius: 4px;
+    margin:2px;
+}
+.add{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.sportsquote{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 60px;
+    overflow: hidden;
+
+}
+.wheelchair{
+    max-width:60%;
+}
+.ladyinstructor{
+    width:40%;
+}
+.wheelchair, img{
+   width:80%;
+   height:auto;
+   margin:20px;
+}
+.ladyinstructor, img{
+    width:60%;
+    height:auto;
+}
+.option{
+    display: flex;
+    justify-content: space-around;
+}
+
